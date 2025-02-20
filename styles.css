@@ -5,6 +5,7 @@ body {
     padding: 0;
     text-align: center;
     background: #A0E7E5; /* Light variant of primary color for a fresh look */
+    background-image: url('shustho_bg.jfif');
 }
 
 /* Header */
