@@ -42,3 +42,23 @@ header img {
     position: absolute;
     left: 20px; /* Position from the left edge */
 }
+footer {
+    background: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-details {
+    margin-bottom: 20px;
+}
+
+.contact-details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-details p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
