@@ -32,3 +32,8 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+.logo {
+    width: 30px; /* Smaller size for logo */
+    position: absolute; /* Absolute positioning */
+    left: 20px; /* Position from left edge */
+}
