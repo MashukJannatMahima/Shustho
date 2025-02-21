@@ -17,7 +17,7 @@ header {
 }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background for the nav bar */
+    background-color: black; /* Transparent black background for the nav bar */
     padding: 10px 0;
 }
 
