@@ -1,323 +1,36 @@
-/* General Styles */
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
-    background: #A0E7E5; /* Light variant of primary color for a fresh look */
+    background: #A0E7E5; /* Light variant of primary color for fallback */
     background-image: url('https://raw.githubusercontent.com/MashukJannatMahima/Shustho/main/shustho_bg.jfif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 100vh; /* Full screen height */
 }
 
-/* Header */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: white;
-    padding: 10px 20px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    box-shadow: 0px 2px 10px rgba(0, 169, 164, 0.2); /* Soft shadow with primary color */
+    background-image: url('https://raw.githubusercontent.com/MashukJannatMahima/Shustho/main/shustho_bg.jfif');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
 }
-
-.logo {
-    width: 50px;
-}
-
 
 nav {
     background-color: rgba(0, 0, 0, 0.5); /* Transparent black background for the nav bar */
     padding: 10px 0;
 }
+
 nav a {
+    color: white;
     text-decoration: none;
-    color: white; /* Darker shade of primary color */
+    margin: 0 15px;
     font-size: 18px;
     font-weight: bold;
-    margin: 0 15px;
-    
 }
 
 nav a:hover {
-    color: #004F4C; /* Even darker shade for hover */
-}
-
-/* Hero Section */
-.hero {
-    background: url('images/hero-bg.jpg') no-repeat center center/cover;
-    color: white;
-    padding: 100px 20px;
-    text-align: center;
-}
-
-.hero h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-
-.hero p {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.btn {
-    display: inline-block;
-    background: #00A9A4; /* Primary color */
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.btn:hover {
-    background: #007F7B; /* Slightly darker shade */
-}
-
-/* Features Section */
-.features {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 50px 0;
-}
-
-.feature {
-    width: 300px;
-    background: white;
-    margin: 10px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: none;
-    text-align: center;
-}
-
-.feature img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.feature h2 {
-    font-size: 20px;
-    margin: 10px 0;
-}
-
-/* Search Box */
-.search-box {
-    background: white;
-    padding: 20px;
-    margin: 30px auto;
-    max-width: 500px;
-    border-radius: 10px;
-    box-shadow: none;
-}
-
-.search-box input {
-    width: 70%;
-    padding: 10px;
-    border: 1px solid #00A9A4;
-    border-radius: 5px;
-}
-
-.search-box button {
-    padding: 10px;
-    background: #00A9A4;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.search-box button:hover {
-    background: #007F7B;
-}
-
-/* Footer */
-footer {
-    background: #00837E; /* Darker shade of primary color */
-    color: white;
-    padding: 20px;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-
-/* Corporate Wellness Page Styles */
-.hero {
-    background: url('images/wellness-bg.jpg') no-repeat center center/cover;
-    text-align: center;
-    padding: 50px 20px;
-    color: #004F4C; /* Darker shade of primary color */
-}
-
-.services {
-    display: flex;
-    justify-content: space-around;
-    padding: 40px 20px;
-}
-
-.service {
-    width: 30%;
-    padding: 20px;
-    background: #E0F7FA; /* Light aqua tone */
-    text-align: center;
-    border-radius: 10px;
-}
-
-.cta {
-    text-align: center;
-    padding: 50px 20px;
-    background: #B2DFDB; /* Soft tone of primary color */
-}
-
-
-
-
-
-/*Contact page Styling */
-/* Contact Form Styling */
-.contact-form {
-    background: #E0F2F1;
-    max-width: 800px; /* Increased width */
-    margin: 50px auto; /* More spacing from the header */
-    padding: 40px; /* Increased padding for better spacing */
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 169, 164, 0.2);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contact-form label {
-    font-weight: bold;
-    margin-top: 10px;
-    color: #00726E;
-    font-size: 18px; /* Increased font size */
-    width: 90%; /* Aligns with input width */
-    text-align: left;
-}
-
-/* Contact Form Input and Textarea Styling */
-.contact-form input,
-.contact-form textarea {
-    width: 90%; /* Increased width */
-    max-width: 750px; /* Prevents too much stretching */
-    padding: 15px; /* Better readability */
-    margin-top: 5px;
-    border: 1px solid #00A9A4;
-    border-radius: 5px;
-    font-size: 18px; /* Bigger text */
-}
-
-/* Textarea Specific Styling */
-.contact-form textarea {
-    height: 180px; /* More space for messages */
-    resize: both; /* Allows resizing both vertically and horizontally */
-}
-
-
-.contact-form button {
-    margin-top: 20px;
-    padding: 15px;
-    background-color: #00A9A4;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    font-size: 18px;
-    cursor: pointer;
-    font-weight: bold;
-    width: 50%; /* Makes button bigger */
-    max-width: 300px;
-}
-
-.contact-form button:hover {
-    background-color: #007F7B;
-}
-
-/* Contact Details Section */
-.contact-info {
-    text-align: center;
-    padding: 30px;
-    background: #00837E;
-    color: white;
-    margin-top: 30px; /* Better separation from form */
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 169, 164, 0.2);
-}
-
-.contact-info p {
-    font-size: 20px; /* Larger font for readability */
-    margin: 10px 0;
-}
-
-/* Fixing Title Visibility */
-h1, h2 {
-    margin-top: 100px; /* Ensures title is visible */
-    text-align: center;
-    position: relative;
-}
-
-/* Prevent Header Overlap */
-body {
-    padding-top: 100px; /* Adjusts content placement */
-}
-
-/* About Page Styling */
-.about-hero {
-    background: url('images/about-bg.jpg') no-repeat center center/cover;
-    text-align: center;
-    padding: 50px 20px;
-    color: #007F7B;
-}
-
-.about-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-    max-width: 1200px;
-    margin: auto;
-}
-
-.about-text {
-    flex: 1;
-    padding: 20px;
-}
-
-.about-image {
-    flex: 1;
-    text-align: center;
-}
-
-.about-image img {
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-.our-mission, .our-values {
-    text-align: center;
-    padding: 30px;
-    background: #D6F5F3; /* Soft complementary background */
-}
-
-.our-values ul {
-    list-style: none;
-    padding: 0;
-}
-
-.our-values li {
-    padding: 10px;
-    font-size: 18px;
-}
-
-
-.container {
-    overflow: visible;
+    text-decoration: underline;
 }
