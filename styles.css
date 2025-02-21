@@ -72,7 +72,7 @@ form input, form textarea {
     flex: 2;
     padding: 10px;
     margin: 5px 0;
-    width: 100%;
+    width: 50%;
 }
 
 form button {
