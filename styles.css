@@ -47,18 +47,12 @@ footer {
     padding: 20px;
     text-align: center;
 }
-
 .contact-details {
-    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: left; /* Align the text to the left */
+    padding-left: 20px; /* Optional: Adds some padding on the left */
 }
 
-.contact-details h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.contact-details p {
-    font-size: 16px;
     margin: 5px 0;
 }
 
