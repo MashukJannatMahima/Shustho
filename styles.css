@@ -29,18 +29,18 @@ header {
     width: 50px;
 }
 
-nav {
-    display: flex;
-    gap: 15px;
-    justify-content: flex-start;
-}
 
+nav {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background for the nav bar */
+    padding: 10px 0;
+}
 nav a {
     text-decoration: none;
-    color: #00726E; /* Darker shade of primary color */
+    color: white; /* Darker shade of primary color */
     font-size: 18px;
-    margin-left: 90px;
     font-weight: bold;
+    margin: 0 15px;
+    
 }
 
 nav a:hover {
