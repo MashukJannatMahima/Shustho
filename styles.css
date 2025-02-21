@@ -37,3 +37,8 @@ nav a:hover {
     position: absolute; /* Absolute positioning */
     left: 20px; /* Position from left edge */
 }
+header img {
+    width: 30px; /* Small size for logo */
+    position: absolute;
+    left: 20px; /* Position from the left edge */
+}
