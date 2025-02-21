@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background: #A0E7E5; /* Light variant of primary color for fallback */
     background-image: url('https://raw.githubusercontent.com/MashukJannatMahima/Shustho/main/shustho_bg.jfif');
     background-size: cover;
     background-position: center;
@@ -12,7 +11,6 @@ body {
 }
 
 header {
-/*     background-image: url('https://raw.githubusercontent.com/MashukJannatMahima/Shustho/main/shustho_bg.jfif'); */
     background-size: cover;
     background-position: center;
     padding: 20px 0;
@@ -24,7 +22,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: none;
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
